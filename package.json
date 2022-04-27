@@ -1,0 +1,17 @@
+{
+  "name": "fizzbuzz-refactoring-project",
+  "version": "1.0.0",
+  "description": "\"This repo is for learning how to work with a previous code and refactor it.\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "TDD",
+    "refactor",
+    "js",
+    "git"
+  ],
+  "author": "Gustavo Lira",
+  "license": "ISC"
+}
