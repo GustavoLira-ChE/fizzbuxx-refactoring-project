@@ -21,4 +21,16 @@ describe("ExplorerController class test", () => {
         //asserts
         expect(typeof amountOfNodeExplorers).toBe("number");
     });
+    test("4. getValidationValue function returns 'FIZZ', 'BUZZ', 'FIZZBUZZ', or a number depence of the number passed to the function", () => {
+        //arrange and acts
+        const trick1 = ExplorerController.getValidationValue(1);
+        const trick3 = ExplorerController.getValidationValue(3);
+        const trick5 = ExplorerController.getValidationValue(5);
+        const trick15 = ExplorerController.getValidationValue(15);
+        //asserts
+        expect(trick1).toBe(1)
+        expect(trick3).toBe('FIZZ')
+        expect(trick5).toBe('BUZZ')
+        expect(trick15).toBe('FIZZBUZZ')
+    })
 });
