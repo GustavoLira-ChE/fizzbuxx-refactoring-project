@@ -16,6 +16,6 @@
   "author": "Gustavo Lira",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^28.0.2"
+    "jest": "^26.0.0"
   }
 }
