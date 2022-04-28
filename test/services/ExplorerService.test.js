@@ -1,5 +1,5 @@
-import Reader from './../../lib/utils/Reader';
-import ExplorerService from './../../lib/services/ExplorerService';
+const Reader =  require('./../../lib/utils/Reader');
+const ExplorerService =  require('./../../lib/services/ExplorerService');
 
 describe("ExplorerService class test", () => {
     test("filterByMission function return a list of object that contain a specified property value", () => {

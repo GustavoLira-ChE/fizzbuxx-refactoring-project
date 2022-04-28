@@ -1,4 +1,4 @@
-import Reader from './../../lib/utils/Reader'
+const Reader =  require('./../../lib/utils/Reader');
 
 describe("Reader class test", () => {
     test("The class function return a list of objects", () => {

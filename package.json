@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "\"This repo is for learning how to work with a previous code and refactor it.\"",
   "main": "app.js",
-  "type": "module",
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "test": "node node_modules/jest/bin/jest.js",
+    "test_exp": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [
     "TDD",

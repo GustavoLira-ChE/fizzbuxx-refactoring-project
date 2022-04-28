@@ -1,5 +1,5 @@
-import Reader from './../../lib/utils/Reader'
-import FizzbuzzService from '../../lib/services/FizzbuzzService';
+const Reader =  require('./../../lib/utils/Reader');
+const FizzbuzzService =  require('../../lib/services/FizzbuzzService');
 
 describe("FizzbuzzService class test", () => {
     test("applyValidationInExplorer function apply a validation over 'score' property and add a new property 'trick' in function of 'score' value", () => {
