@@ -27,6 +27,20 @@ Express for server and API builting, to install Express use:
 npm install express --save
 ```
 
+## Main branch
+In this branch is where my solution live, for check out you need to clone this repo into your computer and run:
+```npm
+npm install
+```
+Then for see how the different components works run:
+```npm
+npm run start
+```
+If you want to run the server use:
+```npm
+npm install server
+```
+
 # Contributing
 If someone wants to add or improve something, I invite you to collaborate directly in this repository: [fizzbuxx-refactoring-project](https://github.com/GustavoLira-ChE/fizzbuxx-refactoring-project)
 
