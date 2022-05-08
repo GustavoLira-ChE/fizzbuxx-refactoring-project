@@ -38,8 +38,14 @@ npm run start
 ```
 If you want to run the server use:
 ```npm
-npm install server
+npm run server
 ```
+if you want to run telegram bot server use:
+```npm
+npm run bot
+```
+And use this QR link to use chat bot
+![QR link](./assets/742f096d-df07-4780-9110-f552bd5a3d1b.jpg)
 
 # Contributing
 If someone wants to add or improve something, I invite you to collaborate directly in this repository: [fizzbuxx-refactoring-project](https://github.com/GustavoLira-ChE/fizzbuxx-refactoring-project)
